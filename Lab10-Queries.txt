@@ -1,0 +1,49 @@
+================================ Task 1 =================================
+
+104 ?- square(5, Area, Preimeter).
+Area = 25,
+Preimeter = 20.
+
+105 ?- rectangle(4, 7, Area, Preimeter).
+Area = 28,
+Preimeter = 22.
+
+106 ?- triangle(5, 8, 3, 4, 5, Area, Preimeter).
+Area = 20.0,
+Preimeter = 12.
+
+=========================================================================
+
+
+
+
+================================ Task 2 =================================
+
+103 ?- login.
+Enter username: hawra.
+Enter password: |: 1234.
+Login Unsuccessful
+Enter username: |: noor.
+Enter password: |: 5705.
+Login Unsuccessful
+Enter username: |: hawra.
+Enter password: |: 5705.
+Login Successful
+true .
+
+
+103 ?- login.
+Enter username: mohammad.
+Enter password: |: 77777.
+Login Unsuccessful
+Enter username: |: ali.
+Enter password: |: 99.
+Login Unsuccessful
+Enter username: |: ibrahim.
+Enter password: |: AAA.
+Login Unsuccessful
+Sorry, you exceeded the maximum number of attempts, try again later.
+true .
+
+=========================================================================
+
